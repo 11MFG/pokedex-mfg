@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*inicio del header*/
 
 header{
     background: #000000 ;
@@ -17,7 +18,9 @@ header p {
     margin-left: 40px;
     margin-top:20px ;
 }
-   
+
+/*fin del header*/
+/*barra de navegacion*/   
 nav {
     background-color: #000000 ;
     color: #fff;
@@ -58,6 +61,8 @@ nav a:hover {
  transition: background-color 0.3s ease;
 }
 
+/*fin de la barra de navegacion*/
+/*inicio del juego*/
 body {
 height: 900px;
 counter-reset:game;
@@ -413,3 +418,5 @@ input[type=checkbox]
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 40px;  
 }
+
+/*fin del juego*/

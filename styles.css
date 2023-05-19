@@ -1,8 +1,11 @@
+
+/*general*/
+
 * {
   margin: 0;
   background: #000000;
 }
-
+/*inicio del header*/
 header{
  background: #000000 ;
  width: 100%;
@@ -21,6 +24,9 @@ header p {
   margin-top:20px ;
 }
 
+/*fin del header*/
+
+/*barra de navegacion*/
 nav {
  background-color: #000000 ;
  color: #fff;
@@ -63,7 +69,8 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
-
+/*fin de la barra de navegacion*/
+/*inicio del banner*/
 .banner{
   background: url(img/banner/silent_cry.webp);
   width: 100%;
@@ -87,8 +94,8 @@ nav a:hover {
   right: 0;
 
 }
-
-
+/*fin del banner*/
+/*inicio de las cards*/
 .cards {
   width: 100%;
   display: flex;
@@ -149,7 +156,7 @@ h1 {
   text-align: center;
 }
 
-
+/*fin de las cards
 
 
 
